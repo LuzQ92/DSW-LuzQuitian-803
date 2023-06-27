@@ -1,0 +1,80 @@
+/* Estilos para el encabezado */
+@import url('https://fonts.googleapis.com/css2?family=Century+Gothic&display=swap');
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #270263;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* Estilos para las secciones */
+
+section {
+    padding: 50px;
+    background-color: #ffffff;
+    /* Color de fondo para las secciones (como fallback) */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/691/170/464/fondos-de-pantalla-color-azul-abstract-wallpaper-preview.jpg');
+    /* Ruta de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-centrado {
+    text-align: center;
+}
+
+.contenido-centrado {
+    text-align: center;
+}
+
+.mockup-centrado {
+    text-align: center;
+}
+
+.mockup-centrado h2 {
+    text-align: center;
+}
+
+.mockup-centrado img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #270263;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+
+}
