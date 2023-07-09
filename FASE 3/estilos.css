@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFDCB6;
+    color: #9384D1;
+}
+
+.navbar {
+    background-color: #ECC9EE;
+}
+
+.navbar .nav-link {
+    color: #9384D1;
+}
+
+.navbar .nav-link:hover {
+    color: #C9A7EB;
+}
+
+header {
+    background-color: #C9A7EB;
+    color: #9384D1;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'aside main'
+    'aside footer';
+    grid-template-columns: 1fr 3fr;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #9384D1;
+    color: #FFDCB6;
+    padding: 20px;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Asegúrate de que la altura sea 100% de la vista del navegador */
+  text-align: center;
+}
+
+.centrar {
+    text-align: center;
+}
+
+  .profile img {
+    width: 410px;
+    height: 460px;
+    object-fit: cover; /* Esta propiedad asegura que la imagen cubra el espacio disponible sin distorsionarse */
+  }
+  
+
+footer {
+    grid-area: footer;
+    background-color: #ECC9EE;
+    color: #9384D1;
+    padding: 20px;
+    text-align: center;
+}
