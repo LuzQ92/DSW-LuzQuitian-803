@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kristen+ITC&display=swap');
+
+header {
+    color: #0B666A;
+}
+
+h1, h2 {
+    font-size: 2em;
+}
+
+
+body {
+    font-family: 'Kristen ITC', cursive;
+    background-color: #071952;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #0B666A;
+}
+
+.container {
+    background-color: #97FEED;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #0B666A;
+}
+
+h2 {
+    color: #0B666A;
+}
+
+input[type=radio] {
+    color: #35A29F;
+}
+
+button {
+    background-color: #0B666A;
+    color: #97FEED;
+}
